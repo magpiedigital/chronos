@@ -1,8 +1,8 @@
 name: chronos
-description: A new Flutter package project.
+description: Chronos is a dart date package inspired by moment's Luxon
 version: 0.0.1
-author:
-homepage:
+author: Hamish Johnson<hamish@magpiedigital.io>
+homepage: https://github.com/magpiedigital/chronos
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
