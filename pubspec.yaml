@@ -1,7 +1,6 @@
 name: chronos
 description: Chronos is a dart date package inspired by moment's Luxon
 version: 0.0.2
-author: Hamish Johnson<hamish@magpiedigital.io>
 homepage: https://github.com/magpiedigital/chronos
 
 environment:
