@@ -104,6 +104,7 @@ class Chronos {
   int get microsecond => _dateTime.microsecond;
   int get dayOfYear => int.parse(DateFormat("D").format(_dateTime));
   int get weekNumber => ((dayOfYear - _dateTime.weekday + 10) / 7).floor();
+  int get daysInMonth => _daysInMonth(this.year, this.month);
   DateTime get dateTime => DateTime(
         _dateTime.year,
         _dateTime.month,
